@@ -1,0 +1,29 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+#container {
+  display: flex;
+  height: 100%;
+}
+
+#preview {
+  width: 50%;
+  object-fit: cover;
+}
+
+#list {
+  width: 50%;
+  list-style: none;
+  margin: 0;
+  padding: 1em;
+  overflow-y: auto;
+}
+
+#list li {
+  padding: 0.5em 0;
+  border-bottom: 1px solid #ccc;
+}
